@@ -1,0 +1,38 @@
+.main{
+     height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 2px solid red; */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 400px;
+    background-color: cadetblue;
+    border: 1px solid gray;
+    border-radius: 30px;
+    /* border: 2px solid red; */
+}
+button{
+    margin: 10px;
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+input::placeholder{
+    color: black;
+}
